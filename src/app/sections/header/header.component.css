@@ -1,0 +1,30 @@
+.navBar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #B71C1C;
+}
+.example-spacer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 14px 4px 6px;
+  }
+  .list{
+    display: flex;
+    padding: 7px;
+  }
+  .list li  {
+    list-style: none;
+    padding: 5px;
+  }
+  .list li a {
+    text-decoration: none;
+    color: black;
+  }
+  .disable{
+    display: none;
+  }
+  .active{
+    display: block;
+  }

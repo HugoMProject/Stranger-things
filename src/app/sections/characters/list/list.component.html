@@ -1,0 +1,10 @@
+<img class="img-fondo" src="../../../../assets/mind-flayer.png" alt="">
+
+<h3>Personajes Principales</h3>
+<div class="section">
+<mat-selection-list #shoes [multiple]="false" style="color: white;">
+    <mat-list-option *ngFor="let shoe of typesOfShoes" [value]="shoe">
+      {{shoe}}
+    </mat-list-option>
+  </mat-selection-list>
+</div>
