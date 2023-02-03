@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { SelectCardService } from './shared/select-card.service';
 import { SectionModule } from './sections/section/section.module';
 
 
@@ -18,7 +18,7 @@ import { SectionModule } from './sections/section/section.module';
     BrowserAnimationsModule,
     SectionModule
   ],
-  providers: [],
+  providers: [SelectCardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

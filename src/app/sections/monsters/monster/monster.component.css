@@ -1,0 +1,146 @@
+.body-conatainer{
+    width: 100%;
+    height: 1600px;
+}
+
+.monsters-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+    left: 15%;
+    top: 1400px;  
+}
+h3{
+    position: absolute;
+    width: 239px;
+    height: 32px;
+    left: 170px;
+    top: 1335px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+    text-indent: 20px;
+    color: #FFFFFF;
+}
+.monster-vecna{
+    overflow: hidden;
+    position: relative;
+    max-width: 300px;
+    height: 419px;
+}
+.monster-mind-flyer{
+    overflow: hidden;
+    position: relative;
+    max-width: 300px;
+    height: 419px;
+}
+.monster-demogorgon{
+    overflow: hidden;
+    position: relative;
+    max-width: 300px;
+    height: 419px;
+}
+
+.img-monster1{
+    z-index: -1;
+    width: 300px;
+    height: 425px;
+}
+.img-monster1 img{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    width: 337px;
+    height: 425px;
+    left: -20px;
+}
+.img-monster2{
+    z-index: -1;
+    width: 300px;
+    height: 419px;
+}
+.img-monster2 img{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    width: 700px;
+    height: 419px;
+    left: -200px;
+}
+.img-monster3{
+    z-index: -1;
+    width: 300px;
+    height: 566px;
+}
+.img-monster3 img{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 566px;
+    left: -100px;
+}
+
+.btn-vecna{
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+    width: 40%;
+    top:350px;
+    left: 30%;
+    padding: 1px;
+    border: 1px solid #B71C1C;
+    background: #B71C1C;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+}
+.btn-mind-flyer{
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+    width: 40%;
+    top:350px;
+    left: 30%;
+    padding: 1px;
+    border: 1px solid #B71C1C;
+    background: #B71C1C;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+}
+.btn-demogorgon{
+    text-align: center;
+    color:white;
+    position: relative;
+    z-index: 1;
+    width: 40%;
+    top:350px;
+    left: 30%;
+    padding: 1px;
+    border: 1px solid #B71C1C;
+    background: #B71C1C;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+}

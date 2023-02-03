@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   background: #B71C1C;
+  color: white;
 }
 .example-spacer {
   display: flex;
@@ -20,7 +21,7 @@
   }
   .list li a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   .disable{
     display: none;
