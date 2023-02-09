@@ -2,9 +2,9 @@
 
 <h3>Personajes Principales</h3>
 <div class="section">
-<mat-selection-list #shoes [multiple]="false" style="color: white;">
-    <mat-list-option *ngFor="let shoe of typesOfShoes" [value]="shoe" (click)="showinfo($event.target)">
-      {{shoe}}
+<mat-selection-list #character [multiple]="false" style="color: white;" >
+    <mat-list-option *ngFor="let character of characters" [value]="character" (click)="showinfo(character)">
+      {{character.name}}
     </mat-list-option>
   </mat-selection-list>
 </div>

@@ -1,9 +1,9 @@
 <div class="container">
-<div class="card">
-    <img src="../../../../assets/once.png" class="card-img-top" alt="...">
+<div class="card" *ngFor="let maincharacter of MainCharacter">
+    <img src="{{maincharacter.img}}" class="card-img-top" alt="imagen del personaje">
     <div class="card-body">
-      <h3>title</h3>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h3 class="name"> {{maincharacter.name}} </h3>
+      <p class="card-text"> {{maincharacter.decription}} </p>
     </div>
   </div>
 </div>
