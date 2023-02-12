@@ -1,10 +1,10 @@
 <mat-toolbar class="navBar">
-    <button mat-icon-button class="example-icon disable"  aria-label="Example icon-button with menu icon">
+  <span>Stranger Things</span>
+    <button mat-icon-button class="example-icon disable" (click)="showList($event)"  aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
-    <span>Stranger Things</span>
     <span class="example-spacer"></span>
-    <ul class="list">
+    <ul id="btnBox" class="list boxlist">
       <li><a href="">INICIO</a></li>
       <li><a href="" (click)="showInfo($event)">INFORMACION</a></li>
       <li><a href="#mainCharacters">PERSONAJES</a></li>

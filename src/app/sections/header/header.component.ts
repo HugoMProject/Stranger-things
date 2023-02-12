@@ -26,4 +26,17 @@ export class HeaderComponent implements OnInit {
     }
   }
 
+  showList(e:any){
+    e.preventDefault()
+    const btnBox:any = document.querySelector('#btnBox');
+    btnBox.addEventListener('click',btnShowList())
+    //funcion para mostrar y ocultar el listado de la pantalla para movil
+    function btnShowList(){
+      if(btnBox.classList.contains('boxlist')){
+        btnBox.classList.remove('boxlist')
+      }else{
+        btnBox.classList.add('boxlist')
+      }
+    }
+  }
 }
