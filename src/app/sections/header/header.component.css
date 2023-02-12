@@ -22,6 +22,7 @@
   .list li a {
     text-decoration: none;
     color: white;
+    transition: all 5s;
   }
   .disable{
     display: none;

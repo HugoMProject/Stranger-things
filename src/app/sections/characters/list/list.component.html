@@ -1,6 +1,6 @@
 <img class="img-fondo" src="../../../../assets/mind-flayer.png" alt="">
 
-<h3>Personajes Principales</h3>
+<h3 id="mainCharacters">Personajes Principales</h3>
 <div class="section">
 <mat-selection-list #character [multiple]="false" style="color: white;" >
     <mat-list-option *ngFor="let character of characters" [value]="character" (click)="showinfo(character)">

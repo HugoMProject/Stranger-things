@@ -6,7 +6,7 @@ import {CharactersModule} from '../characters/characters.module'
 import { InfoComponent } from '../info/info.component'
 import { MonstersModule } from '../monsters/monsters.module'
 import { MaterialModule } from '../../shared/material/material.module'
-import { SelectCardService } from '../../shared/select-card.service'
+import { FooterComponent } from '../footer/footer.component';
 
 
 
@@ -14,7 +14,8 @@ import { SelectCardService } from '../../shared/select-card.service'
   declarations: [
     BannerComponent,
     InfoComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +27,8 @@ import { SelectCardService } from '../../shared/select-card.service'
     HeaderComponent,
     CharactersModule,
     InfoComponent,
-    MonstersModule
+    MonstersModule,
+    FooterComponent
   ]
 })
 export class SectionModule { }

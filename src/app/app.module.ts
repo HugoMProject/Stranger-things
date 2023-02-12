@@ -10,7 +10,7 @@ import { SectionModule } from './sections/section/section.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
